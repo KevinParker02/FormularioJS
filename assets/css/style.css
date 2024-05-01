@@ -1,0 +1,9 @@
+.Tit{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+/* Cómo se verá el botón con el texto marcado o desmarcado. */
+label span {color: gray;}
+/* Si el input está marcado vuelvo a usar el span y a ese le cambio el color. */
+label input:checked + span {color: black;}
